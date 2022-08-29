@@ -50,7 +50,7 @@
 </template>
 
 <script setup lang="ts">
-  const searchInput = ref('foo')
+  const searchInput = ref('')
   const debouncedSearchInput = refDebounced(searchInput, 300)
 
   const { page, search } = useCharactersFilters()
